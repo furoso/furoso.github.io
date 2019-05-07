@@ -1,0 +1,26 @@
+<packageInfo>
+    <bundleId>com.furoso.badget</bundleId>
+    <name>Badget</name>
+    <version>1.0</version>
+    <descriptions>
+        <description>
+            Badget - the battery widget you always wanted ;)
+        </description>
+        <description>
+            Lockscreen widget for XenHTML
+        </description>
+    </descriptions>
+    <compatibility>
+        <miniOS></miniOS>
+        <maxiOS>Only tested on 12.1.2</maxiOS>
+    </compatibility>
+    <dependencies>
+        <dependency>XenHTML</dependency>
+    </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>V1.0 </changeVersion>
+            <changeDescription>First release</changeDescription>
+        </change>
+    </changelog>
+</packageInfo>
