@@ -1,0 +1,30 @@
+<packageInfo>
+    <bundleId>com.furoso.centyfish</bundleId>
+    <name>Centyfish</name>
+    <version>1.0</version>
+    <descriptions>
+        <description>
+            Centyfish - centered alternative to Jellyfish
+        </description>
+        <description>
+            Lockscreen widget for XenHTML inspired by Jellyfish. Shows the currend weather, time and date. Fully customizable and easy to use.
+        </description>
+        <description>
+            For suggestions and bug reports please me (u/furoso) on reddit!
+        </description>
+    </descriptions>
+    <compatibility>
+        <miniOS></miniOS>
+        <maxiOS>Only tested on iOS 12</maxiOS>
+    </compatibility>
+    <dependencies>
+        <dependency>XenHTML</dependency>
+        <dependency>XenInfo</dependency>
+    </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>v1.0 </changeVersion>
+            <changeDescription>First release</changeDescription>
+        </change>
+    </changelog>
+</packageInfo>
