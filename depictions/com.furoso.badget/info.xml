@@ -19,7 +19,12 @@
     </dependencies>
     <changelog>
         <change>
-            <changeVersion>V1.0 </changeVersion>
+            <changeVersion>v1.1 </changeVersion>
+            <changeDescription>Fixed ShowSymbol functionality</changeDescription>
+            <changeDescription>Cleaned up the code</changeDescription>
+        </change>
+        <change>
+            <changeVersion>v1.0 </changeVersion>
             <changeDescription>First release</changeDescription>
         </change>
     </changelog>
