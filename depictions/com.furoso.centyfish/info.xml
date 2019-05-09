@@ -23,6 +23,10 @@
     </dependencies>
     <changelog>
         <change>
+            <changeVersion>v1.0.1 </changeVersion>
+            <changeDescription>Fixed bug where minutes display as one digit</changeDescription>
+        </change>
+        <change>
             <changeVersion>v1.0 </changeVersion>
             <changeDescription>First release</changeDescription>
         </change>
