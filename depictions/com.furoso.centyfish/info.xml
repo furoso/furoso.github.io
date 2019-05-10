@@ -17,11 +17,21 @@
         <miniOS></miniOS>
         <maxiOS>Only tested on iOS 12</maxiOS>
     </compatibility>
+    <screenshots>
+        <screenshot>https://furoso.github.io/screenshots/com.furoso.centyfish/01.PNG</screenshot>
+        <screenshot>https://furoso.github.io/screenshots/com.furoso.centyfish/02.PNG</screenshot>
+    </screenshots>
     <dependencies>
         <dependency>XenHTML</dependency>
         <dependency>XenInfo</dependency>
     </dependencies>
     <changelog>
+        <change>
+            <changeVersion>v1.1 </changeVersion>
+            <changeDescription>Added support for 12h time format</changeDescription>
+            <changeDescription>Added option to hide am/pm</changeDescription>
+            <changeDescription>Added Deciption for Sileo</changeDescription>
+        </change>
         <change>
             <changeVersion>v1.0.2 </changeVersion>
             <changeDescription>Fixed bug where no styling applied</changeDescription>

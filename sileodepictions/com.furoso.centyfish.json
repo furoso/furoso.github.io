@@ -1,0 +1,82 @@
+{
+    "class": "DepictionTabView",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [
+                {
+                    "title": "Centyfish",
+                    "useBoldText": true,
+                    "class": "DepictionSubheaderView",
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Centyfish - centered alternative to Jellyfish",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "itemCornerRadius": 6,
+                    "class": "DepictionScreenshotsView",
+                    "itemSize": "{160, 275.41333333333336}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://furoso.github.io/screenshots/com.furoso.centyfish/01.PNG"
+                        },
+                        {
+                            "accessibilityText": "Screenshot1",
+                            "url": "https://furoso.github.io/screenshots/com.furoso.centyfish/02.PNG"
+                        }
+                    ]
+                },
+                {
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Lockscreen widget for XenHTML inspired by Jellyfish. Shows the current weather, time and date. Fully customizable and easy to use.\r\nFor suggestions and bug reports please contact me (u/furoso) on reddit!",
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "Version",
+                    "text": "1.1",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Released",
+                    "text": "05-10-2019",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Price",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "title": "Developer",
+                    "text": "Furoso",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                }
+            ]
+        }
+    ],
+    "headerImage": "https://furoso.github.io/screenshots/com.furoso.centyfish/03.PNG",
+    "tintColor": "#0657bb",
+    "minVersion": "0.1"
+}

@@ -32,6 +32,10 @@ $(function(){
                        $("#description" ).append('<li>' +$(this).text()+ '</li>');
                    });
 
+                   $(xml).find('screenshot').each(function(){
+                        $("#screenshots" ).append("<li><img src='" +$(this).text()+ "' height='450px' width='auto' /></li>");
+                   });
+
                    $(xml).find('dependency').each(function(){
                        $("#dependencies" ).append('<li>' +$(this).text()+ '</li>');
                    });

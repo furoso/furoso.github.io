@@ -1,0 +1,34 @@
+<packageInfo>
+    <bundleId>com.furoso.newyork</bundleId>
+    <name>New York</name>
+    <version>1.0</version>
+    <descriptions>
+        <description>
+            New York - another beautiful widget for your Lockscreen!
+        </description>
+        <description>
+            Lockscreen widget for XenHTML. Shows time and your current city with weather and chance of rain. As always fully customizable.
+        </description>
+        <description>
+            For suggestions and bug reports please contact me (u/furoso) on reddit!
+        </description>
+    </descriptions>
+    <compatibility>
+        <miniOS></miniOS>
+        <maxiOS>Only tested on iOS 12</maxiOS>
+    </compatibility>
+    <screenshots>
+        <screenshot>https://furoso.github.io/screenshots/com.furoso.newyork/01.PNG</screenshot>
+        <screenshot>https://furoso.github.io/screenshots/com.furoso.newyork/02.PNG</screenshot>
+    </screenshots>
+    <dependencies>
+        <dependency>XenHTML</dependency>
+        <dependency>XenInfo</dependency>
+    </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>v1.0 </changeVersion>
+            <changeDescription>First release</changeDescription>
+        </change>
+    </changelog>
+</packageInfo>
