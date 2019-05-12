@@ -8,7 +8,7 @@
                 {
                     "title": "Centyfish",
                     "useBoldText": true,
-                    "class": "DepictionSubheaderView",
+                    "class": "DepictionHeaderView",
                     "useBottomMargin": false
                 },
                 {
@@ -32,6 +32,14 @@
                         {
                             "accessibilityText": "Screenshot1",
                             "url": "https://furoso.github.io/screenshots/com.furoso.centyfish/02.PNG"
+                        },
+                        {
+                            "accessibilityText": "Screenshot1",
+                            "url": "https://furoso.github.io/screenshots/com.furoso.centyfish/03.PNG"
+                        },
+                        {
+                            "accessibilityText": "Screenshot1",
+                            "url": "https://furoso.github.io/screenshots/com.furoso.centyfish/04.PNG"
                         }
                     ]
                 },
@@ -39,20 +47,20 @@
                     "title": "markdown-description",
                     "useBoldText": true,
                     "class": "DepictionMarkdownView",
-                    "markdown": "Lockscreen widget for XenHTML inspired by Jellyfish. Shows the current weather, time and date. Fully customizable and easy to use.\r\nFor suggestions and bug reports please contact me (u/furoso) on reddit!",
+                    "markdown": "Lockscreen widget for XenHTML inspired by Jellyfish. Shows the current weather, time and date. Fully customizable and easy to use.\r\nFor suggestions and bug reports please contact me on twitter (@furosodev)!",
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "title": "Version",
-                    "text": "1.1",
+                    "title": "Developer",
+                    "text": "Furoso",
                     "class": "DepictionTableTextView"
                 },
                 {
-                    "title": "Released",
-                    "text": "05-10-2019",
+                    "title": "Version",
+                    "text": "1.1",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -61,22 +69,52 @@
                     "class": "DepictionTableTextView"
                 },
                 {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "title": "Developer",
-                    "text": "Furoso",
-                    "class": "DepictionTableTextView"
+                    "title": "Follow me on Twitter",
+                    "action": "https://twitter.com/furosodev",
+                    "class": "DepictionTableButtonView"
                 },
                 {
                     "class": "DepictionSpacerView",
                     "spacing": 8
                 }
             ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<h3>v1.1</h3><ul><li>Added suport for 12h time format</li><li>Added option to hide am/pm</li><li>Added deciption for Sileo</li></ul>",
+                    "useBottomMargin": false,
+                    "useRawFormat" : true
+                },
+                {
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<h3>v1.0.2</h3><ul><li>Fixed bug where no styling applied</li></ul>",
+                    "useBottomMargin": false,
+                    "useRawFormat" : true
+                },
+                {
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<h3>v1.0.1</h3><ul><li>Fixed bug where minutes display as one digit</li></ul>",
+                    "useBottomMargin": false,
+                    "useRawFormat" : true
+                },
+                {
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<h3>v1.0</h3><ul><li>First release</li></ul>",
+                    "useBottomMargin": false,
+                    "useRawFormat" : true
+                }
+            ]
         }
     ],
-    "headerImage": "https://furoso.github.io/screenshots/com.furoso.centyfish/03.PNG",
+    "headerImage": "https://furoso.github.io/screenshots/com.furoso.centyfish/header.PNG",
     "tintColor": "#0657bb",
     "minVersion": "0.1"
 }

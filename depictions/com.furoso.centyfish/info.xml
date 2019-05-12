@@ -7,10 +7,10 @@
             Centyfish - centered alternative to Jellyfish
         </description>
         <description>
-            Lockscreen widget for XenHTML inspired by Jellyfish. Shows the currend weather, time and date. Fully customizable and easy to use.
+            Lockscreen widget for XenHTML inspired by Jellyfish. Shows the current weather, time and date. Fully customizable and easy to use.
         </description>
         <description>
-            For suggestions and bug reports please contact me (u/furoso) on reddit!
+            For suggestions and bug reports please contact me on twitter (@furosodev)!
         </description>
     </descriptions>
     <compatibility>
@@ -18,14 +18,22 @@
         <maxiOS>Only tested on iOS 12</maxiOS>
     </compatibility>
     <screenshots>
-        <screenshot>https://furoso.github.io/screenshots/com.furoso.centyfish/01.PNG</screenshot>
-        <screenshot>https://furoso.github.io/screenshots/com.furoso.centyfish/02.PNG</screenshot>
+        <screenshot>/screenshots/com.furoso.centyfish/01.PNG</screenshot>
+        <screenshot>/screenshots/com.furoso.centyfish/02.PNG</screenshot>
+        <screenshot>/screenshots/com.furoso.centyfish/03.PNG</screenshot>
+        <screenshot>/screenshots/com.furoso.centyfish/04.PNG</screenshot>
     </screenshots>
     <dependencies>
         <dependency>XenHTML</dependency>
         <dependency>XenInfo</dependency>
     </dependencies>
     <changelog>
+        <change>
+            <changeVersion>v1.2 </changeVersion>
+            <changeDescription>Full support for weather icons</changeDescription>
+            <changeDescription>Improved time update</changeDescription>
+            <changeDescription>Added option to set alignment</changeDescription>
+        </change>
         <change>
             <changeVersion>v1.1 </changeVersion>
             <changeDescription>Added support for 12h time format</changeDescription>
