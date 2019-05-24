@@ -1,0 +1,33 @@
+<packageInfo>
+    <bundleId>com.furoso.pusic</bundleId>
+    <name>Pusic</name>
+    <version>1.0</version>
+    <descriptions>
+        <description>
+            Pusic - enjoy your music: Pixel style!
+        </description>
+        <description>
+            Widget for XenHTML. Shows your current playing track and its artist. Fully customizable and easy to use.
+        </description>
+        <description>
+            For suggestions and bug reports please contact me on twitter (@furosodev)!
+        </description>
+    </descriptions>
+    <compatibility>
+        <miniOS></miniOS>
+        <maxiOS>Only tested on iOS 12</maxiOS>
+    </compatibility>
+    <screenshots>
+        <screenshot>/screenshots/com.furoso.pusic/01.PNG</screenshot>
+    </screenshots>
+    <dependencies>
+        <dependency>XenHTML</dependency>
+        <dependency>XenInfo</dependency>
+    </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>v1.0 </changeVersion>
+            <changeDescription>First release</changeDescription>
+        </change>
+    </changelog>
+</packageInfo>

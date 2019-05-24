@@ -1,0 +1,87 @@
+{
+    "class": "DepictionTabView",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [
+                {
+                    "title": "Pusic",
+                    "useBoldText": true,
+                    "class": "DepictionHeaderView",
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Pusic - enjoy your music: Pixel style!",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "itemCornerRadius": 6,
+                    "class": "DepictionScreenshotsView",
+                    "itemSize": "{160, 313,04347826086956}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://furoso.github.io/screenshots/com.furoso.pusic/01.PNG"
+                        }
+                    ]
+                },
+                {
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Widget for XenHTML. Shows your current playing track and its artist. Fully customizable and easy to use.\r\nFor suggestions and bug reports please contact me on twitter (@furosodev)!",
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "Developer",
+                    "text": "Furoso",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Follow me on Twitter",
+                    "action": "https://twitter.com/furosodev",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                    "title": "Version",
+                    "text": "1.0",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Price",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<h3>v1.0</h3><ul><li>First release</li></ul>",
+                    "useBottomMargin": false,
+                    "useRawFormat" : true
+                }
+            ]
+        }
+    ],
+    "headerImage": "https://furoso.github.io/screenshots/com.furoso.pusic/header.PNG",
+    "tintColor": "#0657bb",
+    "minVersion": "0.1"
+}
