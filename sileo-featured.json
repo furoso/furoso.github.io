@@ -4,7 +4,7 @@
     "itemCornerRadius":10,
     "banners":[  
        {  
-          "url":"screenshots/com.furoso.centyfish/03.PNG",
+          "url":"/screenshots/com.furoso.centyfish/header.PNG",
           "title":"Centyfish",
           "package":"com.furoso.centyfish",
           "hideShadow":false
